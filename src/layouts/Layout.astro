@@ -1,4 +1,6 @@
 ---
+import '@fontsource-variable/inter'
+
 interface Props {
   title: string
   description: string
@@ -26,6 +28,10 @@ const { title, description } = Astro.props
 
 <style is:global>
   :root {
-    background: black;
+    background: #000000;
+  }
+
+  body {
+    font-family: 'Inter Variable', sans-serif;
   }
 </style>
