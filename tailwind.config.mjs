@@ -8,7 +8,7 @@ export default {
         sun: '#FEE506',
         ocean: '#0252D8',
         palm: {
-          light: '#117E1C',
+          light: '#18B428',
           DEFAULT: '#0F6C18',
           dark: '#07360C',
         },
