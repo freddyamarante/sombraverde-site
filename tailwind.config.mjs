@@ -7,7 +7,11 @@ export default {
         orange: '#FA8006',
         sun: '#FEE506',
         ocean: '#0252D8',
-        palm: '#0F6C18',
+        palm: {
+          light: '#117E1C',
+          DEFAULT: '#0F6C18',
+          dark: '#07360C',
+        },
         night: {
           light: '#234332',
           DEFAULT: '#0E1B14',

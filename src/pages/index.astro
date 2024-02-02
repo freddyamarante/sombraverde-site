@@ -1,11 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro'
+
+import Header from '../components/sections/Header.jsx'
+import Hero from '../components/sections/Hero.astro'
+import AboutUs from '../components/sections/AboutUs.astro'
+import OurProducts from '../components/sections/OurProducts.astro'
+import ContactUs from '../components/sections/ContactUs.astro'
+import Footer from '../components/sections/Footer.astro'
 ---
 
 <Layout title="Primera pag" description="La primera pagina del sitio web">
-  <div
-    class="h-screen flex justify-center items-center text-center text-8xl text-white font-extrabold"
-  >
-    test
-  </div>
+  <Header client:load />
+  <Hero />
+  <AboutUs />
+  <OurProducts />
+  <ContactUs />
+  <Footer />
 </Layout>
