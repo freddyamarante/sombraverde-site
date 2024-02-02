@@ -10,10 +10,14 @@ import Footer from '../components/sections/Footer.astro'
 ---
 
 <Layout title="Primera pag" description="La primera pagina del sitio web">
-  <Header client:load />
-  <Hero />
-  <AboutUs />
-  <OurProducts />
-  <ContactUs />
+  <div class="min-h-screen">
+    <Header client:load />
+    <Hero />
+  </div>
+  <main>
+    <AboutUs />
+    <OurProducts />
+    <ContactUs />
+  </main>
   <Footer />
 </Layout>
